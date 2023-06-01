@@ -1,4 +1,4 @@
-# crowd_geoloc
+# Crowdsourced Geolocation
 Simulation for geolocalization using crowdsourcing.
 
 
