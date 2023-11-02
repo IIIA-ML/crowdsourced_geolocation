@@ -1,7 +1,7 @@
 # Crowdsourced Geolocation
 Simulation for geolocalization using crowdsourcing.
 
-The code for the research article: 
+This repository contains the code used in the research article:
 
 R. Ballester, Y. Labeyrie, M. O. Mulayim, J. L. Fernandez-Marquez, and J. Cerquides, “Mathematical and Computational Models for Crowdsourced Geolocation,” in _Frontiers in Artificial Intelligence and Applications, Vol 375: Artificial Intelligence Research and Development_, I. Sanz, R. Ros, and J. Nin, Eds. IOS Press, 2023, pp. 301–310. [doi: 10.3233/FAIA230699](https://doi.org/10.3233/FAIA230699)
 
@@ -69,7 +69,7 @@ In the parameters section one can change the number of points, number of annotat
 If you find our software useful for your research, kindly consider citing the associated article as follows:
 
 ```bibtex
-@incollection{Ballester2023,
+@incollection{Ballester_et_al_2023,
 author = {Ballester, Rocco and Yanis, Labeyrie and Mulayim, Mehmet Oguz and Fernandez-Marquez, Jose Luis and Cerquides, Jesus},
 booktitle = {Frontiers in Artificial Intelligence and Applications},
 doi = {10.3233/FAIA230699},
