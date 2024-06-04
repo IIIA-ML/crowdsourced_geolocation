@@ -64,7 +64,7 @@ class SimpleNormalAnnotatorPopulation:
         return AnnotatorSet(annotators)
 
 
-def cubic_spline_generator(splits=11, quality_diversity=0.5, max_height=0.5, min_height=0.01):
+def cubic_spline_generator(splits=11, quality_diversity=0.5, max_height=0.2, min_height=0.001):
     x = np.arange(splits) / (splits - 1.)
     not_fulfilling_min_height = True
     while not_fulfilling_min_height:

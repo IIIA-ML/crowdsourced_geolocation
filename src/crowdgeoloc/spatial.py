@@ -51,7 +51,7 @@ class OneShotSpatialBayesian(ActiveAnnotationMethod):
              }
         inits = {"y_grid": np.ones((n_annotators, l)) * 0.1}
         gp = cmd.CmdStanModel(stan_file=resource_filename('gp-learn-variances-ma.stan'))
-        s = gp.optimize(data=d, inits=inits, show_console=True, iter=1000, algorithm='lbfgs', tol_rel_grad=10000.)
+        s = gp.optimize(data=d, inits=inits, show_console=False, iter=1000, algorithm='lbfgs', tol_rel_grad=10000.)
 
         kappa = s.stan_variable("kappa")
         y_grid = s.stan_variable("y_grid")
@@ -80,7 +80,7 @@ def learn_variance_profiles(t, w, ann, l=15):
          }
     inits = {"y_grid": np.ones((n_annotators, l)) * 0.1}
     gp = cmd.CmdStanModel(stan_file=resource_filename('gp-learn-variances-ma.stan'))
-    s = gp.optimize(data=d, inits=inits, show_console=True, iter=10000, algorithm='lbfgs', tol_rel_grad=10000.)
+    s = gp.optimize(data=d, inits=inits, show_console=False, iter=10000, algorithm='lbfgs', tol_rel_grad=10000.)
     kappa = s.stan_variable("kappa")
     y_grid = s.stan_variable("y_grid")
     return kappa, y_grid
