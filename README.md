@@ -27,6 +27,7 @@ Alternative to the Jupyter Notebook, you can start the JupyterLab:
 ```bash
 jupyter lab
 ```
+Since Jupytext is being used, all notebooks are paired with a Python file, which makes committing changes easier. As a result, Python files in the nb/ directory can be opened as Jupyter notebooks.
 
 ## To run the experiments from the COGNITIVE SCIENCE RESEARCH article
 Move to the CSR branch and follow the following instructions.
