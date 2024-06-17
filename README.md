@@ -61,7 +61,7 @@ Finally, analogously to the constant variance experiments, the last two cells of
 
 
 ## To run the experiments from the CCIA article
-Move to the master branch and follow the following instructions.
+Move to the CCIA branch and follow the following instructions.
 
 ### Constant Variance Experiments
 In order to perform experiments with constant variances and reproduce the figures presented in the article, one must run the notebook called `Constant_Variance_Experiments.ipynb` found inside the `nb` folder. 
