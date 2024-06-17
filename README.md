@@ -1,9 +1,12 @@
 # Crowdsourced Geolocation
 Simulation for geolocalization using crowdsourcing.
 
-This repository contains the code used in the research article:
+This repository contains the code used in two related research articles:
 
 R. Ballester, Y. Labeyrie, M. O. Mulayim, J. L. Fernandez-Marquez, and J. Cerquides, “Mathematical and Computational Models for Crowdsourced Geolocation,” in _Frontiers in Artificial Intelligence and Applications, Vol 375: Artificial Intelligence Research and Development_, I. Sanz, R. Ros, and J. Nin, Eds. IOS Press, 2023, pp. 301–310. [doi: 10.3233/FAIA230699](https://doi.org/10.3233/FAIA230699)
+
+(Preprint)
+Ballester, Rocco and Labeyrie, Yanis and Mulayim, Mehmet Oguz and Fernandez-Marquez, Jose Luis and Cerquides, Jesus, Crowdsourced Geolocation: Detailed Exploration of Mathematical and Computational Modelling Approaches. Available at SSRN: [doi: 10.2139/ssrn.4771789](http://dx.doi.org/10.2139/ssrn.4771789)
 
 ## Before every run
 First, make sure you update the local repo with the remote changes. 
@@ -29,7 +32,7 @@ jupyter lab
 ```
 Since Jupytext is being used, all notebooks are paired with a Python file, which makes committing changes easier. As a result, Python files in the nb/ directory can be opened as Jupyter notebooks.
 
-## To run the experiments from the COGNITIVE SCIENCE RESEARCH article
+## To run the experiments from the CSR article
 Move to the CSR branch and follow the following instructions.
 
 ### Constant Variance Experiments
@@ -98,6 +101,22 @@ title = {Mathematical and Computational Models for Crowdsourced Geolocation},
 url = {https://ebooks.iospress.nl/volumearticle/64978},
 volume = {375},
 year = {2023}
+}
+```
+
+or
+
+```bibtex
+@misc{ballester_crowdsourced_2024,
+type = {{SSRN} {Scholarly} {Paper}},
+title = {Crowdsourced Geolocation: Detailed Exploration of Mathematical and Computational Modelling Approaches},
+url = {https://papers.ssrn.com/abstract=4771789},
+doi = {10.2139/ssrn.4771789},
+language = {en},
+author = {Ballester, Rocco and Labeyrie, Yanis and Mulayim, Mehmet Oguz and Fernandez-Marquez, Jose Luis and Cerquides, Jesus},
+month = mar,
+year = {2024},
+keywords = {Machine learning, crowdsoucing, disaster response, geolocation, probabilistic models, Social media},
 }
 ```
 
